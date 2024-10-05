@@ -41,7 +41,7 @@
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/17%20-%20copy%20URL%20(name).jpg" width="600" />.
 
-   - #### (4) I opened `Google Collab` and followed the steps below:
+   - #### (4) I opened `Google Colab` and followed the steps below:
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/18%20-%20collab%20success.jpg" width="600" />.
 
