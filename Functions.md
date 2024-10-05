@@ -159,6 +159,8 @@
           
         <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/9%20-vsc%20-%20error%20-%20API.jpg" width="650" />.
 
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/11%20-%20github%20action3.jpg" width="650" />.
+
 
     - #### (6) Troubleshooting steps I have taken:
       
@@ -167,8 +169,10 @@
       - changed the email address included in the scripts inside `pubmed_github_action.py` file to match the one I used in GitHub
       - ensured that the `.env` file was created and contained the `API key` I received on the **Resend** website after creating a new account using my `stonybrook.edu` email. I also ensured that I copied the correct path in the `pubmed_action_github.py` file.
         
-          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20copy%20path%20to%20yaml.jpg" width="650" />.
-        
+           ➙ This was prior to resolving the issue.
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20copy%20path%20to%20yaml.jpg" width="650" />
+
+
       - ensured that I created a repository secret containing my `RESEND_API_KEY`
           - [Creating an API Key through Resend](https://resend.com/home)
              <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20resend%20api%20key.jpg" width="650" />.
@@ -177,6 +181,29 @@
              <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20secret%20repository%20-%20api-key.jpg" width="650" />.
    
       - saved all changes to each file I modified, then used `git add`, `git commit -m "my commit message"`, and `git push`
+
+
+    - #### (7) The latest update on troubleshooting the `**GitHub Action**` of the *Cron Job* section of this assignment after submitting it this morning (10/05/2024).
+      
+      - I have tried to change the path or link in [pubmed_github_action.py](https://github.com/raqssoriano/504-cron-job/blob/main/pubmed_github_action.py) where the data will be run using the GitHub action workflow of the [504-cron-job](https://github.com/raqssoriano/504-cron-job) repository. See the actions taken in the photos below, which I believe helped me successfully run the workflow in my GitHub repository. In the second photo, I slightly modified the scripts I have taken from my professor.
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/13%20-%201st%20soln.jpg" width="650" />.
+        
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/13%20-%202nd%20soln.jpg" width="650" />.
+        
+      
+      - After multiple attempts at troubleshooting each file in this repository and carefully checking for any mistakes I might have missed, I successfully ran the GitHub action workflow. You can see the results in the photos below.
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/12%20-%20pubmed%20github%20success.jpg" width="650" />.
+        
+        
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/12%20-%20pubmed%20-%20run%20data%20pipeline%201.jpg" width="650" />.
+        
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/12%20-%20pubmed%20-%20run%20data%20pipeline%202.jpg" width="650" />.
+
+
 
 ---
 
