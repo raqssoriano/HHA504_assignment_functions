@@ -57,7 +57,7 @@
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/20%20-%20copy%20url%20(BP).jpg" width="600" />.
 
-   - #### (7) Same as in step (4) above, I opened `Google Collab`, followed the steps below, and the outcome was successful.🙂
+   - #### (7) Same as in step (4) above, I opened `Google Colab`, followed the steps below, and the outcome was successful.🙂
 
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/21%20-%20collab%20success%20(BP).jpg" width="700" />.
 
