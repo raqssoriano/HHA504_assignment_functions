@@ -5,7 +5,7 @@
 # ☞ _**Deploying a Serverless Function**_
 ---
 
-  - # GPC
+  - # 📌 GPC
 
     - #### (1) Under the `Google Cloud Console`, I created a _**'Google Cloud Function'**_. See photos below for the steps, errors, and troubleshooting I performed to complete this section.
       
@@ -61,7 +61,7 @@
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/21%20-%20collab%20success%20(BP).jpg" width="700" />
 
 
-  - # Azure  
+  - # 📌 Azure  
 
 
 
@@ -122,6 +122,21 @@
              <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20secret%20repository%20-%20api-key.jpg" width="650" />.
    
       - saved all changes to each file I modified, then used `git add`, `git commit -m "my commit message"`, and `git push`
+
+---
+
+# ☞ _**Exploring Functions as a Service (FaaS)**_
+---
+
+
+
+
+
+# ☞ _**My Key Takeaways from this **_
+---
+
+
+
 
 
 
