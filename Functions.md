@@ -2,7 +2,8 @@
 ---
 
 
-# ☞ _**Deploy a Serverless Function**_
+# ☞ _**Deploying a Serverless Function**_
+---
 
   - # GPC
 
@@ -63,6 +64,64 @@
   - # Azure  
 
 
+
+
+---
+
+# ☞ _**Creating a Cron Job**_
+---
+
+  - # GitHub Actions
+    
+    - #### (1) Created a new GitHub repository named `504-cron-job` and opened my _**Visual Studio Code**_ and used the `git clone` command.
+
+
+    - #### (2) Added a `requirements.txt` file, listing the necessary scripts/languages to complete to this assignment. I also added a `.venv` or virtual environment file.
+
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/1%20-%20soln%20to%20error%20(vsc).jpg" width="650" />.
+
+
+    - #### (3) Created a new file named `.github` with a subfolder named `workflows`, containing a YAML file called **`pubmed_update.yaml`**. This file contains a _**scheduled task**_ that will be executed in a console.
+      
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/2%20-%20yaml.jpg" width="650" />.
+
+
+    - #### (4) Created a new file named `pubmed_action_github.py` containing a script that logs a _**scheduled task**_ to be executed in a console using GitHub actions.
+      
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/3%20-%20pubmed%20file.jpg" width="650" />.
+
+
+    - #### (5) I ran all scripts one at a time, encountering no errors until the final two lines: `email = resend.Emails.send(params)` and `print(email)`. I tried all available resources, I eventually ran out of options and felt so frustrated."
+      
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/6%20-%20import%20-%20ok.jpg" width="400" />.
+
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/7%20-%20print-df.jpg" width="650" />.
+
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/8%20-%20pubmed.jpg" width="650" />.
+
+
+    - #### *Note:* This is the part where I spent too much time troubleshooting due to repeated error messages like `API key is invalid` and other confusing errors. See the photo below that shows the error message I've been getting.
+          
+        <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/9%20-vsc%20-%20error%20-%20API.jpg" width="650" />.
+
+
+    - #### (6) Troubleshooting steps I have taken:
+      
+      - ran `pip install resend` command
+      - checked for any punctuation errors and misspelled words
+      - changed the email address included in the scripts inside `pubmed_github_action.py` file to match the one I used in GitHub
+      - ensured that the `.env` file was created and contained the `API key` I received on the **Resend** website after creating a new account using my `stonybrook.edu` email. I also ensured that I copied the correct path in the `pubmed_action_github.py` file.
+        
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20copy%20path%20to%20yaml.jpg" width="650" />.
+        
+      - ensured that I created a repository secret containing my `RESEND_API_KEY`
+          - [Creating an API Key through Resend](https://resend.com/home)
+             <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20resend%20api%20key.jpg" width="650" />.
+     
+          - [Creating a repository secret in GitHub](https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20secret%20repository%20-%20api-key.jpg)
+             <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/4%20-%20secret%20repository%20-%20api-key.jpg" width="650" />.
+   
+      - saved all changes to each file I modified, then used `git add`, `git commit -m "my commit message"`, and `git push`
 
 
 
