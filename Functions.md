@@ -1,13 +1,14 @@
-# Exploring Serverless Computing and Cron Jobs in Azure, GCP, and GitHub
+# **Exploring Serverless Computing and Cron Jobs in Azure, GCP, and GitHub**
 ---
 
 
 # ☞ _**Deploying a Serverless Function**_
 ---
 
-  - # 📌 GPC
+   - # 📌 GPC: Serverless Function
+---
 
-    - #### (1) Under the `Google Cloud Console`, I created a _**'Google Cloud Function'**_. See photos below for the steps, errors, and troubleshooting I performed to complete this section.
+   - #### (1) Under the `Google Cloud Console`, I created a _**'Google Cloud Function'**_. See photos below for the steps, errors, and troubleshooting I performed to complete this section.
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/1.jpg" alt="GCP" width="600" />.
 
@@ -30,39 +31,93 @@
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/12%20-%20hello%20raqs%20(successful%20execution).jpg" width="450" />.
 
 
-    - #### (2) In this photo, I attempted to add 'Soriano' in the `last_name` field. However, I couldn't click the `RUN TEST` button. After multiple failed attempts to add the last_name, I opted to use only the first name. But, I persisted and tried again, only realizing after multiple attempts and troubleshooting that I had forgotten to add a comma (,) after typing 'Raqs' in the `firstname`. After this, I was able to run the test, the execution response appeared, and lastly, I deployed the test.
+   - #### (2) In this photo, I attempted to add 'Soriano' in the `last_name` field. However, I couldn't click the `RUN TEST` button. After multiple failed attempts to add the last_name, I opted to use only the first name. But, I persisted and tried again, only realizing after multiple attempts and troubleshooting that I had forgotten to add a comma (,) after typing 'Raqs' in the `firstname`. After this, I was able to run the test, the execution response appeared, and lastly, I deployed the test.
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/16%20-%20%5BX%5D%20firstname%20only.jpg" width="650" /> ➙ ERROR
 
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/16%20-%20first%20%26%20lastname%20prob%20solved%20%26%20DEPLOY.jpg" width="650" /> ➙ ISSUE RESOLVED
 
-    - #### (3) URL copied after deployment:
+   - #### (3) URL copied after deployment:
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/17%20-%20copy%20URL%20(name).jpg" width="600" />.
 
-    - #### (4) I opened `Google Collab` and followed the steps below:
+   - #### (4) I opened `Google Collab` and followed the steps below:
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/18%20-%20collab%20success.jpg" width="600" />.
 
-    - #### (5) Going back to `Google Cloud Console` ➙ I navigaged to the newly created function `function-01` and click 'Code'. I copied Professor Hants' code from his GitHub repository under `HHA-504-2024` [gcp_function.py](https://github.com/hantswilliams/HHA-504-2024/blob/main/other/module5/gcp_function.py), and pasted it into my GCP `main.py`. See the photo below.
+   - #### (5) Going back to `Google Cloud Console` ➙ I navigaged to the newly created function `function-01` and click 'Code'. I copied Professor Hants' code from his GitHub repository under `HHA-504-2024` [gcp_function.py](https://github.com/hantswilliams/HHA-504-2024/blob/main/other/module5/gcp_function.py), and pasted it into my GCP `main.py`. See the photo below.
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/19%20-%20copied%20cmds%20from%20professor.jpg" width="600" />.
 
-    - #### _*Note:*_ The photo shown below is the error I encountered even before successfully resolving the issue in **step (2)**, which was forgetting to include a comma (,) after the _**systolic value**_ of "`130`"
+   - #### _*Note:*_ The photo shown below is the error I encountered even before successfully resolving the issue in **step (2)**, which was forgetting to include a comma (,) after the _**systolic value**_ of "`130`"
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/19%20-%20error%20-%20diastolic.jpg" width="600" />.
 
-    - #### (6) After performing step (5), deploying `function-01` or 'the test' was successful, so I went ahead and copied the URL.
+   - #### (6) After performing step (5), deploying `function-01` or 'the test' was successful, so I went ahead and copied the URL.
       
       <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/20%20-%20copy%20url%20(BP).jpg" width="600" />.
 
-    - #### (7) Same as in step (4) above, I opened `Google Collab`, followed the steps below, and the outcome was successful.🙂
+   - #### (7) Same as in step (4) above, I opened `Google Collab`, followed the steps below, and the outcome was successful.🙂
 
-      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/21%20-%20collab%20success%20(BP).jpg" width="700" />
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/GCP-functions/21%20-%20collab%20success%20(BP).jpg" width="700" />.
 
 
-  - # 📌 Azure  
+---
 
+  - # 📌 Azure: Serverless Function
+---
+  
+   - #### (1) Under the `Microsoft Azure` portal, I searched for the _**'Function App'**_. See the photos below for the steps I performed to complete this section.
+      
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/1.jpg" width="600" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/2.jpg" width="600" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/3.jpg" width="350" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/4.jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/5.jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/6.jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/7.jpg" width="500" />
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/8%20-%20deployment%20section%20(Enable%20and%20Create).jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/9%20Deployment%20Completed%201.jpg" width="650" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/9%20Deployment%20Completed%202.jpg" width="650" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/10.jpg" width="650" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/11%20-%20func%20overview%20%3A%3A%20CREATE%20in%20Azure%20Portal%20.jpg" width="650" />.
+
+ - #### (2) Inside the **`Function App`**, I created an *'`HTTP trigger`'*, which I modified slightly by adding **"`Raqs Soriano`"** in the name field, and deployed the function, as shown below.
+   
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/12%20-%20HTTP%20trigger.jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/13%20-%20Template.jpg" width="500" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/14%20-%20http%20trigger%20-%20overview.jpg" width="600" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/14%20-%20http%20trigger%20-%20successful.jpg" width="600" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/15%20-%20run%20input%201.jpg" width="350" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/15%20-%20output%201.jpg" width="350" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/16%20-%20run%20input%202.jpg" width="350" />.
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/16%20-%20output%202.jpg" width="350" />.
+
+
+ - #### (3) I attempted to test the function outside the Azure portal using **`Colab`** instead of Visual Studio Code.
+     
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/17%20-%20get%20func%20URL.jpg" width="660" />.
+
+
+      <img src="https://github.com/raqssoriano/HHA504_assignment_functions/blob/main/Azure-functions/18%20-%20attempted%20in%20colab.jpg" width="650" />.
 
 
 
@@ -128,12 +183,16 @@
 # ☞ _**Exploring Functions as a Service (FaaS)**_
 ---
 
+  - ### 📌 Benefits of FaaS in Azure & GCP:
+     - ➙ Users, such as businesses or developers, write the code and provide the data, while Azure and GCP manage all the servers and infrastractures. FaaS platform like Azure Functions and Google Cloud Functions easily integrate with other cloud services from their respective providers--Azure & GCP.
+     - ➙ Azure and GCP automatically adjust resources based on demand, so you only pay for the computing services you use.
+
+  - ### 📌 Limitations of FaaS in Azure & GCP:
+     - ➙ While Azure and GCP offer control over servers/infrastructures, users may have reduced flexibility when it comes to specific or larger configurations. I believe this limitation was also highlighted in the Microsoft Azure Virtual Training I attended last month, if I remember correctly.
+     - ➙ If a business consistently runs applications at high volume, FaaS could be more expensive than traditional servers.
+        
 
 
-
-
-# ☞ _**My Key Takeaways from this Assignment **_
----
 
 
 
