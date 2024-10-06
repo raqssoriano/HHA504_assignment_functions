@@ -128,7 +128,7 @@
 
   - # GitHub Actions
     
-    - #### (1) Created a new GitHub repository named `504-cron-job` and opened my _**Visual Studio Code**_ and used the `git clone` command.
+    - #### (1) Created a new GitHub repository named **[504-cron-job](https://github.com/raqssoriano/504-cron-job)** and opened my _**Visual Studio Code**_ and used the `git clone` command.
 
 
     - #### (2) Added a `requirements.txt` file, listing the necessary scripts/languages to complete to this assignment. I also added a `.venv` or virtual environment file.
@@ -141,7 +141,7 @@
         <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/2%20-%20yaml.jpg" width="650" />.
 
 
-    - #### (4) Created a new file named `pubmed_action_github.py` containing a script that logs a _**scheduled task**_ to be executed in a console using GitHub actions.
+    - #### (4) Created a new file named **[pubmed_github_action.py](https://github.com/raqssoriano/504-cron-job/blob/main/pubmed_github_action.py)** containing a script that logs a _**scheduled task**_ to be executed in a console using GitHub actions.
       
         <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/3%20-%20pubmed%20file.jpg" width="650" />.
 
