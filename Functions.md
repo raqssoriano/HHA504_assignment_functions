@@ -146,7 +146,7 @@
         <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/3%20-%20pubmed%20file.jpg" width="650" />.
 
 
-    - #### (5) I ran all scripts one at a time, encountering no errors until the final two lines: `email = resend.Emails.send(params)` and `print(email)`. I tried all available resources, I eventually ran out of options and felt so frustrated."
+    - #### (5) I ran all scripts one at a time, encountering no errors until the final two lines: `email = resend.Emails.send(params)` and `print(email)`. I tried all available resources, I eventually ran out of options and felt so frustrated.
       
         <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/6%20-%20import%20-%20ok.jpg" width="400" />.
 
@@ -183,7 +183,7 @@
       - saved all changes to each file I modified, then used `git add`, `git commit -m "my commit message"`, and `git push`
 
 
-    - #### (7) The latest update on troubleshooting the `**GitHub Action**` of the *Cron Job* section of this assignment after submitting it this morning (10/05/2024).
+    - #### (7) The latest update on troubleshooting the **`GitHub Action`** of the *Cron Job* section of this assignment after submitting it this morning (10/05/2024).
       
       - I have tried to change the path or link in [pubmed_github_action.py](https://github.com/raqssoriano/504-cron-job/blob/main/pubmed_github_action.py) where the data will be run using the GitHub action workflow of the [504-cron-job](https://github.com/raqssoriano/504-cron-job) repository. See the actions taken in the photos below, which I believe helped me successfully run the workflow in my GitHub repository. In the second photo, I slightly modified the scripts I have taken from my professor.
 
@@ -203,6 +203,16 @@
 
           <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/12%20-%20pubmed%20-%20run%20data%20pipeline%202.jpg" width="650" />.
 
+
+    - #### (8) The latest update on _**scheduling**_ a script to _**run on a set schedule**_ with a Github action workflow.
+      
+      - On my first submitted assignment yesterday (10/05/2024), I didn't modify the schedule. It was set to run at midnight. This time, I decided to try running it every minute and every 2 minutes, but it kept failing! Finally, after 13-14 runs, I tried 3 minute intervals, and it **worked!** I also modified the script in the previous **`pubmed_update.yaml`** file I submitted to simplify it as per instructions. See the photos of the executed scheduled task.🙂
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/Sched%20task%20executed%201.jpg" width="700" />.
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/Sched%20task%20executed%202.jpg" width="700" />.
+
+          <img src="https://github.com/raqssoriano/504-cron-job/blob/main/Cron%20Job/Sched%20task%20executed%203.jpg" width="700" />.
 
 
 ---
